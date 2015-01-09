@@ -1,0 +1,27 @@
+{
+    "name": "styleguider-cli",
+    "version": "0.1.0",
+    "author": "Matt Balmer <contact@mattbalmer.com>",
+    "license": "MIT",
+    "preferGlobal": true,
+    "bin": {
+        "styleguider": "styleguider-cli.js"
+    },
+    "keywords": [
+        "styleguider",
+        "styleguide",
+        "style guide",
+        "style",
+        "css",
+        "sass",
+        "stylus",
+        "patternlib",
+        "pattern lib",
+        "pattern"
+    ],
+    "dependencies": {
+        "optimist": "~0.6.1",
+        "resolve": "~1.0.0",
+        "findup-sync": "~0.2.1"
+    }
+}
