@@ -15,3 +15,13 @@ if(action == 'start') {
 if(action == 'compile') {
     require('./bin/compile-styleguide')(styleguider);
 }
+if(action == 'dep') {
+    action = args[1];
+    if(action == 'tree') {
+        var tree = styleguider.compiler.dependencies.tree();
+        console.log('Dep tree', JSON.stringify(tree));
+    }
+    if(action == 'link') {
+        styleguider.compiler.dependencies.link();
+    }
+}
